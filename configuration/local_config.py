@@ -1,0 +1,1 @@
+data_dir = '/Users/lucietomiskova/Documents/tweets'

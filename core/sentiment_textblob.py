@@ -4,16 +4,13 @@ import json
 import glob
 import argparse
 from statistics import mean
+
 from textblob import TextBlob
-# from configuration.local_config import csv_path
+
 from configuration.config import data_dir
 
-print(str(data_dir))
-# tweets_folder = glob.glob('/Users/lucietomiskova/Documents/tweets/*.csv')
+
 tweets_folder = glob.glob(data_dir + '/*.csv')
-
-
-print(tweets_folder)
 
 
 def write_into_json(file_name):
